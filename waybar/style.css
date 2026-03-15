@@ -1,0 +1,258 @@
+
+* {
+    font-family: AdwaitaMono;
+    font-weight: bold;
+    font-size: 10px;
+    min-height: 0;
+    min-width: 80px;
+    margin: 2px;
+}
+
+
+#custom-notification {
+    background: alpha(#cc00cc,.5);
+    opacity: 0.9;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 7px;
+    border: 0px;
+    border-radius: 10px 0px 0px 10px;
+    color: #000000;
+  }
+
+window#waybar {
+    background: linear-gradient(to bottom, alpha(#ff00cc, 0.5), alpha(#0000cc, 0.0));
+    color: #ffffff;
+}
+
+tooltip {
+    background: #cc00cc;
+    opacity: 0.9;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffccff;
+}
+
+tooltip label{
+    color: #ffffff;
+}
+
+#workspaces button {
+    padding: 0px;
+    color: #ffffff;
+    margin-right: 0px;
+    border-radius: 5px;
+    border: 1px solid alpha(#000000, .7);
+    background: alpha(#000000, .3);
+    text-shadow: 0 0 8px #ff00ff;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*#custom-launch_rofi,*/
+
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-power_profile,
+#custom-weather,
+#custom-myhyprv,
+#window,
+#cpu,
+#disk,
+#custom-updates,
+#memory,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#backlight {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+#network {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+min-width: 320px;
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#network , #backlight, #custom-launch_wofi, #cpu {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#custom-light_dark, #workspaces, #pulseaudio.microphone, #battery, #disk {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#temperature.critical {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+
+#workspaces {
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 0px;
+    text-shadow: 0 0 8px #ff00ff;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#custom-launch_wofi {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#pulseaudio {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#pulseaudio.microphone {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#battery {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#tray{
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+text-shadow: 0 0 8px #ff00ff;
+}
+
+#clock {
+padding: 0px;
+color: #000000;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#ffffff, .15);
+text-shadow: 0 0 8px #ff00ff;
+min-width: 160px;
+min-height: 20px;
+}
+
+#taskbar {
+padding: 0px;
+color: #ffffff;
+margin-right: 0px;
+border-radius: 20px;
+border: 1px solid alpha(#000000, .7);
+background: alpha(#000000, .3);
+}
+
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 3px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ffffff;
+    animation: gradient_f 5s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+#taskbar button.active {
+    background: #000000;
+    color: #ffffff;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
